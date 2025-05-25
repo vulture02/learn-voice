@@ -20,7 +20,9 @@ const Navbar = () => {
             <div className="flex items-center gap-8">
              <NavItems>
 
+                
              </NavItems>
+             <h2>Signin</h2>
             </div>
         </nav>
     )
