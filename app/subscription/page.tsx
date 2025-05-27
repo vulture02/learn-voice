@@ -2,8 +2,8 @@ import { PricingTable } from "@clerk/nextjs"
 
 const Subscription = () => {
   return (
-    <div>
-      <PricingTable/>
+    <div className="pt-24"> {/* Adjust according to navbar height */}
+      <PricingTable />
     </div>
   )
 }
